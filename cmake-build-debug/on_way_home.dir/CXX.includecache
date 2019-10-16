@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Rishi/CLionProjects/competitive_coding/approach_techn/dp/on_way_home.cpp
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+
