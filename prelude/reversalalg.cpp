@@ -1,5 +1,6 @@
 // C++ program for reversal algorithm
 // of array rotation
+//left and right array rotation technique
 #include <bits/stdc++.h>
 using namespace std;
 
