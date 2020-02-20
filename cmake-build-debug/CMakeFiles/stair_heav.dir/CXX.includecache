@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rishi/CLionProjects/comp_prog/approach_techn/dp/stair_heav.cpp
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+

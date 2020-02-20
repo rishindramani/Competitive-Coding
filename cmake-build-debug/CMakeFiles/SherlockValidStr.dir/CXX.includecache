@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rishi/CLionProjects/comp_prog/hackerrank/SherlockValidStr.cpp
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+algorithm
+-
+vector
+-
+queue
+-
+

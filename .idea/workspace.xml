@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="comp_prog" targetName="theatre" />
+      <config projectName="comp_prog" targetName="unordmap" />
+      <config projectName="comp_prog" targetName="main_hello_world" />
+      <config projectName="comp_prog" targetName="inord_stack" />
+      <config projectName="comp_prog" targetName="first" />
+      <config projectName="comp_prog" targetName="monk" />
+      <config projectName="comp_prog" targetName="disp_seg" />
+      <config projectName="comp_prog" targetName="ancestor" />
+      <config projectName="comp_prog" targetName="nat" />
+      <config projectName="comp_prog" targetName="migr_birds" />
+      <config projectName="comp_prog" targetName="twodvect" />
+      <config projectName="comp_prog" targetName="2darray_vect" />
+      <config projectName="comp_prog" targetName="levl_ord_trav_tree" />
+      <config projectName="comp_prog" targetName="heap" />
+      <config projectName="comp_prog" targetName="ris" />
+      <config projectName="comp_prog" targetName="heapsort" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="541a265f-ab43-423d-a44c-24f5d36e741c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1SAOPJW4PBvdxSCLcFeDEXeQThA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rishi\CLionProjects\comp_prog\codeforces" />
+      <recent name="C:\Users\Rishi\CLionProjects\competitive_coding\prelude" />
+      <recent name="C:\Users\Rishi\CLionProjects\competitive_coding\approach_techn\dp" />
+      <recent name="C:\Users\Rishi\CLionProjects\competitive_coding\prelude\gener" />
+      <recent name="C:\Users\Rishi\CLionProjects\competitive_coding\prelude\etp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.first">
+    <configuration name="2darray_vect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="2darray_vect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="2darray_vect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ancestor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="ancestor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="ancestor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="disp_seg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="disp_seg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="disp_seg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="first" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="first" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="first">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="heap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="heap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heapsort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="heapsort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="heapsort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inord_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="inord_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="inord_stack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="levl_ord_trav_tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="levl_ord_trav_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="levl_ord_trav_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="main_hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="main_hello_world">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="migr_birds" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="migr_birds" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="migr_birds">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monk" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="monk" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="monk">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="nat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="nat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ris" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="ris" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="ris">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="theatre" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="theatre" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="theatre">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twodvect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="twodvect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="twodvect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unordmap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="comp_prog" TARGET_NAME="unordmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="comp_prog" RUN_TARGET_NAME="unordmap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.2darray_vect" />
+      <item itemvalue="CMake Application.ancestor" />
+      <item itemvalue="CMake Application.disp_seg" />
+      <item itemvalue="CMake Application.first" />
+      <item itemvalue="CMake Application.heap" />
+      <item itemvalue="CMake Application.heapsort" />
+      <item itemvalue="CMake Application.inord_stack" />
+      <item itemvalue="CMake Application.levl_ord_trav_tree" />
+      <item itemvalue="CMake Application.main_hello_world" />
+      <item itemvalue="CMake Application.migr_birds" />
+      <item itemvalue="CMake Application.monk" />
+      <item itemvalue="CMake Application.nat" />
+      <item itemvalue="CMake Application.ris" />
+      <item itemvalue="CMake Application.theatre" />
+      <item itemvalue="CMake Application.twodvect" />
+      <item itemvalue="CMake Application.unordmap" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="541a265f-ab43-423d-a44c-24f5d36e741c" name="Default Changelist" comment="" />
+      <created>1571002907292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571002907292</updated>
+      <workItem from="1571002908692" duration="6364000" />
+      <workItem from="1571012660812" duration="5907000" />
+      <workItem from="1571218878869" duration="5438000" />
+      <workItem from="1571339676866" duration="899000" />
+      <workItem from="1571662388359" duration="12982000" />
+      <workItem from="1571737021930" duration="4667000" />
+      <workItem from="1571753929226" duration="4435000" />
+      <workItem from="1571823527435" duration="4569000" />
+      <workItem from="1571904393072" duration="948000" />
+      <workItem from="1571913397478" duration="168000" />
+      <workItem from="1573008950818" duration="176000" />
+      <workItem from="1573009376581" duration="11630000" />
+      <workItem from="1573463785568" duration="2350000" />
+      <workItem from="1574165500648" duration="482000" />
+      <workItem from="1574173110570" duration="1007000" />
+      <workItem from="1574227929192" duration="5697000" />
+      <workItem from="1574518766598" duration="631000" />
+      <workItem from="1574519570365" duration="17000" />
+      <workItem from="1574526354330" duration="12000" />
+      <workItem from="1574592875070" duration="1303000" />
+      <workItem from="1574627995614" duration="1042000" />
+      <workItem from="1574657984728" duration="3167000" />
+      <workItem from="1574667652981" duration="2829000" />
+      <workItem from="1574676433150" duration="4102000" />
+      <workItem from="1575198287688" duration="54000" />
+      <workItem from="1575198449729" duration="257000" />
+      <workItem from="1575199090187" duration="295000" />
+      <workItem from="1576426725993" duration="53000" />
+      <workItem from="1576426826126" duration="14146000" />
+      <workItem from="1576475062902" duration="1663000" />
+      <workItem from="1576659841718" duration="1251000" />
+      <workItem from="1576731163329" duration="1598000" />
+      <workItem from="1576823488745" duration="798000" />
+      <workItem from="1576824633108" duration="934000" />
+      <workItem from="1576919240445" duration="3921000" />
+      <workItem from="1577030339694" duration="4594000" />
+      <workItem from="1577078565679" duration="4161000" />
+      <workItem from="1577091132620" duration="247000" />
+      <workItem from="1577091407723" duration="10000" />
+      <workItem from="1577164657909" duration="637000" />
+      <workItem from="1577174232201" duration="14000" />
+      <workItem from="1577176947374" duration="2284000" />
+      <workItem from="1577350282275" duration="1958000" />
+      <workItem from="1577424691593" duration="1609000" />
+      <workItem from="1577542506447" duration="4233000" />
+      <workItem from="1578516544596" duration="30000" />
+      <workItem from="1578518169666" duration="4847000" />
+      <workItem from="1578590260278" duration="696000" />
+      <workItem from="1578908996144" duration="10000" />
+      <workItem from="1578993099239" duration="1085000" />
+      <workItem from="1579171985360" duration="734000" />
+      <workItem from="1579258336044" duration="1489000" />
+      <workItem from="1579370091094" duration="912000" />
+      <workItem from="1579376995750" duration="4487000" />
+      <workItem from="1579429728785" duration="4133000" />
+      <workItem from="1579581459690" duration="627000" />
+      <workItem from="1579596563214" duration="2281000" />
+      <workItem from="1579686632733" duration="4156000" />
+      <workItem from="1579776290699" duration="1946000" />
+      <workItem from="1579805274664" duration="218000" />
+      <workItem from="1579805680538" duration="1535000" />
+      <workItem from="1580056824750" duration="2168000" />
+      <workItem from="1580202084580" duration="2434000" />
+      <workItem from="1580290998367" duration="5251000" />
+      <workItem from="1580330448544" duration="2759000" />
+      <workItem from="1580359278676" duration="619000" />
+      <workItem from="1580655224310" duration="1656000" />
+      <workItem from="1581184917072" duration="5592000" />
+      <workItem from="1581253288066" duration="638000" />
+      <workItem from="1581411360104" duration="1834000" />
+      <workItem from="1582015140093" duration="3178000" />
+      <workItem from="1582056447738" duration="45000" />
+      <workItem from="1582056696818" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577177933506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577177933506" />
+    <state x="748" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577035022627">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="748" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577035022627" />
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1582023927613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582023927613" />
+    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1582023927613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582023927613" />
+    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1582023927613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582023927613" />
+    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1582023927613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582023927613" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581193472807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581193472807" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581193472807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581193472807" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581193472807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581193472807" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581193472807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581193472807" />
+    <state x="399" y="264" key="Performance.Activity.Monitor" timestamp="1575198682573">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="264" key="Performance.Activity.Monitor/0.0.1536.824@0.0.1536.824" timestamp="1575198682573" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1575199376979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575199376979" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1582056697066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582056697066" />
+    <state x="462" y="10" width="611" height="804" key="find.popup" timestamp="1578520192885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="10" width="611" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578520192885" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581190297468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581190297468" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576919935062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576919935062" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/codechef/demo.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/prelude/trees/monk.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

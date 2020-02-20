@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Rishi\CLionProjects\competitive_coding
+CMAKE_SOURCE_DIR = C:\Users\rishi\CLionProjects\comp_prog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Rishi\CLionProjects\competitive_coding\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\rishi\CLionProjects\comp_prog\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Rishi\CLionProjects\competitive_coding\cmake-build-d
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rishi\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles C:\Users\Rishi\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rishi\CLionProjects\comp_prog\cmake-build-debug\CMakeFiles C:\Users\rishi\CLionProjects\comp_prog\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rishi\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rishi\CLionProjects\comp_prog\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named goldmine
-
-# Build rule for target.
-goldmine: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 goldmine
-.PHONY : goldmine
-
-# fast build rule for target.
-goldmine/fast:
-	$(MAKE) -f CMakeFiles\goldmine.dir\build.make CMakeFiles/goldmine.dir/build
-.PHONY : goldmine/fast
-
-#=============================================================================
 # Target rules for targets named main_hello_world
 
 # Build rule for target.
@@ -136,230 +123,442 @@ main_hello_world/fast:
 .PHONY : main_hello_world/fast
 
 #=============================================================================
-# Target rules for targets named nextgrtr_unorder_stack
+# Target rules for targets named heapsort
 
 # Build rule for target.
-nextgrtr_unorder_stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nextgrtr_unorder_stack
-.PHONY : nextgrtr_unorder_stack
+heapsort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heapsort
+.PHONY : heapsort
 
 # fast build rule for target.
-nextgrtr_unorder_stack/fast:
-	$(MAKE) -f CMakeFiles\nextgrtr_unorder_stack.dir\build.make CMakeFiles/nextgrtr_unorder_stack.dir/build
-.PHONY : nextgrtr_unorder_stack/fast
+heapsort/fast:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/build
+.PHONY : heapsort/fast
 
 #=============================================================================
-# Target rules for targets named on_way_home
+# Target rules for targets named heap
 
 # Build rule for target.
-on_way_home: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 on_way_home
-.PHONY : on_way_home
+heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heap
+.PHONY : heap
 
 # fast build rule for target.
-on_way_home/fast:
-	$(MAKE) -f CMakeFiles\on_way_home.dir\build.make CMakeFiles/on_way_home.dir/build
-.PHONY : on_way_home/fast
+heap/fast:
+	$(MAKE) -f CMakeFiles\heap.dir\build.make CMakeFiles/heap.dir/build
+.PHONY : heap/fast
 
 #=============================================================================
-# Target rules for targets named sort_stack
+# Target rules for targets named ris
 
 # Build rule for target.
-sort_stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 sort_stack
-.PHONY : sort_stack
+ris: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ris
+.PHONY : ris
 
 # fast build rule for target.
-sort_stack/fast:
-	$(MAKE) -f CMakeFiles\sort_stack.dir\build.make CMakeFiles/sort_stack.dir/build
-.PHONY : sort_stack/fast
+ris/fast:
+	$(MAKE) -f CMakeFiles\ris.dir\build.make CMakeFiles/ris.dir/build
+.PHONY : ris/fast
 
 #=============================================================================
-# Target rules for targets named stair_heav
+# Target rules for targets named levl_ord_trav_tree
 
 # Build rule for target.
-stair_heav: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 stair_heav
-.PHONY : stair_heav
+levl_ord_trav_tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 levl_ord_trav_tree
+.PHONY : levl_ord_trav_tree
 
 # fast build rule for target.
-stair_heav/fast:
-	$(MAKE) -f CMakeFiles\stair_heav.dir\build.make CMakeFiles/stair_heav.dir/build
-.PHONY : stair_heav/fast
+levl_ord_trav_tree/fast:
+	$(MAKE) -f CMakeFiles\levl_ord_trav_tree.dir\build.make CMakeFiles/levl_ord_trav_tree.dir/build
+.PHONY : levl_ord_trav_tree/fast
 
 #=============================================================================
-# Target rules for targets named subset_sum
+# Target rules for targets named twodvect
 
 # Build rule for target.
-subset_sum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 subset_sum
-.PHONY : subset_sum
+twodvect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 twodvect
+.PHONY : twodvect
 
 # fast build rule for target.
-subset_sum/fast:
-	$(MAKE) -f CMakeFiles\subset_sum.dir\build.make CMakeFiles/subset_sum.dir/build
-.PHONY : subset_sum/fast
+twodvect/fast:
+	$(MAKE) -f CMakeFiles\twodvect.dir\build.make CMakeFiles/twodvect.dir/build
+.PHONY : twodvect/fast
 
 #=============================================================================
-# Target rules for targets named rod_cutting
+# Target rules for targets named migr_birds
 
 # Build rule for target.
-rod_cutting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 rod_cutting
-.PHONY : rod_cutting
+migr_birds: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 migr_birds
+.PHONY : migr_birds
 
 # fast build rule for target.
-rod_cutting/fast:
-	$(MAKE) -f CMakeFiles\rod_cutting.dir\build.make CMakeFiles/rod_cutting.dir/build
-.PHONY : rod_cutting/fast
+migr_birds/fast:
+	$(MAKE) -f CMakeFiles\migr_birds.dir\build.make CMakeFiles/migr_birds.dir/build
+.PHONY : migr_birds/fast
 
 #=============================================================================
-# Target rules for targets named mod_mult_inverse
+# Target rules for targets named unordmap
 
 # Build rule for target.
-mod_mult_inverse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 mod_mult_inverse
-.PHONY : mod_mult_inverse
+unordmap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 unordmap
+.PHONY : unordmap
 
 # fast build rule for target.
-mod_mult_inverse/fast:
-	$(MAKE) -f CMakeFiles\mod_mult_inverse.dir\build.make CMakeFiles/mod_mult_inverse.dir/build
-.PHONY : mod_mult_inverse/fast
+unordmap/fast:
+	$(MAKE) -f CMakeFiles\unordmap.dir\build.make CMakeFiles/unordmap.dir/build
+.PHONY : unordmap/fast
 
-approach_techn/dp/goldmine.obj: approach_techn/dp/goldmine.cpp.obj
+#=============================================================================
+# Target rules for targets named disp_seg
 
-.PHONY : approach_techn/dp/goldmine.obj
+# Build rule for target.
+disp_seg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 disp_seg
+.PHONY : disp_seg
+
+# fast build rule for target.
+disp_seg/fast:
+	$(MAKE) -f CMakeFiles\disp_seg.dir\build.make CMakeFiles/disp_seg.dir/build
+.PHONY : disp_seg/fast
+
+#=============================================================================
+# Target rules for targets named 2darray_vect
+
+# Build rule for target.
+2darray_vect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2darray_vect
+.PHONY : 2darray_vect
+
+# fast build rule for target.
+2darray_vect/fast:
+	$(MAKE) -f CMakeFiles\2darray_vect.dir\build.make CMakeFiles/2darray_vect.dir/build
+.PHONY : 2darray_vect/fast
+
+#=============================================================================
+# Target rules for targets named inord_stack
+
+# Build rule for target.
+inord_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 inord_stack
+.PHONY : inord_stack
+
+# fast build rule for target.
+inord_stack/fast:
+	$(MAKE) -f CMakeFiles\inord_stack.dir\build.make CMakeFiles/inord_stack.dir/build
+.PHONY : inord_stack/fast
+
+#=============================================================================
+# Target rules for targets named monk
+
+# Build rule for target.
+monk: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 monk
+.PHONY : monk
+
+# fast build rule for target.
+monk/fast:
+	$(MAKE) -f CMakeFiles\monk.dir\build.make CMakeFiles/monk.dir/build
+.PHONY : monk/fast
+
+#=============================================================================
+# Target rules for targets named theatre
+
+# Build rule for target.
+theatre: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 theatre
+.PHONY : theatre
+
+# fast build rule for target.
+theatre/fast:
+	$(MAKE) -f CMakeFiles\theatre.dir\build.make CMakeFiles/theatre.dir/build
+.PHONY : theatre/fast
+
+#=============================================================================
+# Target rules for targets named nat
+
+# Build rule for target.
+nat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 nat
+.PHONY : nat
+
+# fast build rule for target.
+nat/fast:
+	$(MAKE) -f CMakeFiles\nat.dir\build.make CMakeFiles/nat.dir/build
+.PHONY : nat/fast
+
+#=============================================================================
+# Target rules for targets named ancestor
+
+# Build rule for target.
+ancestor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ancestor
+.PHONY : ancestor
+
+# fast build rule for target.
+ancestor/fast:
+	$(MAKE) -f CMakeFiles\ancestor.dir\build.make CMakeFiles/ancestor.dir/build
+.PHONY : ancestor/fast
+
+#=============================================================================
+# Target rules for targets named first
+
+# Build rule for target.
+first: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 first
+.PHONY : first
+
+# fast build rule for target.
+first/fast:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/build
+.PHONY : first/fast
+
+codechef/first.obj: codechef/first.cpp.obj
+
+.PHONY : codechef/first.obj
 
 # target to build an object file
-approach_techn/dp/goldmine.cpp.obj:
-	$(MAKE) -f CMakeFiles\goldmine.dir\build.make CMakeFiles/goldmine.dir/approach_techn/dp/goldmine.cpp.obj
-.PHONY : approach_techn/dp/goldmine.cpp.obj
+codechef/first.cpp.obj:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/codechef/first.cpp.obj
+.PHONY : codechef/first.cpp.obj
 
-approach_techn/dp/goldmine.i: approach_techn/dp/goldmine.cpp.i
+codechef/first.i: codechef/first.cpp.i
 
-.PHONY : approach_techn/dp/goldmine.i
+.PHONY : codechef/first.i
 
 # target to preprocess a source file
-approach_techn/dp/goldmine.cpp.i:
-	$(MAKE) -f CMakeFiles\goldmine.dir\build.make CMakeFiles/goldmine.dir/approach_techn/dp/goldmine.cpp.i
-.PHONY : approach_techn/dp/goldmine.cpp.i
+codechef/first.cpp.i:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/codechef/first.cpp.i
+.PHONY : codechef/first.cpp.i
 
-approach_techn/dp/goldmine.s: approach_techn/dp/goldmine.cpp.s
+codechef/first.s: codechef/first.cpp.s
 
-.PHONY : approach_techn/dp/goldmine.s
+.PHONY : codechef/first.s
 
 # target to generate assembly for a file
-approach_techn/dp/goldmine.cpp.s:
-	$(MAKE) -f CMakeFiles\goldmine.dir\build.make CMakeFiles/goldmine.dir/approach_techn/dp/goldmine.cpp.s
-.PHONY : approach_techn/dp/goldmine.cpp.s
+codechef/first.cpp.s:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/codechef/first.cpp.s
+.PHONY : codechef/first.cpp.s
 
-approach_techn/dp/on_way_home.obj: approach_techn/dp/on_way_home.cpp.obj
+codechef/theatre.obj: codechef/theatre.cpp.obj
 
-.PHONY : approach_techn/dp/on_way_home.obj
+.PHONY : codechef/theatre.obj
 
 # target to build an object file
-approach_techn/dp/on_way_home.cpp.obj:
-	$(MAKE) -f CMakeFiles\on_way_home.dir\build.make CMakeFiles/on_way_home.dir/approach_techn/dp/on_way_home.cpp.obj
-.PHONY : approach_techn/dp/on_way_home.cpp.obj
+codechef/theatre.cpp.obj:
+	$(MAKE) -f CMakeFiles\theatre.dir\build.make CMakeFiles/theatre.dir/codechef/theatre.cpp.obj
+.PHONY : codechef/theatre.cpp.obj
 
-approach_techn/dp/on_way_home.i: approach_techn/dp/on_way_home.cpp.i
+codechef/theatre.i: codechef/theatre.cpp.i
 
-.PHONY : approach_techn/dp/on_way_home.i
+.PHONY : codechef/theatre.i
 
 # target to preprocess a source file
-approach_techn/dp/on_way_home.cpp.i:
-	$(MAKE) -f CMakeFiles\on_way_home.dir\build.make CMakeFiles/on_way_home.dir/approach_techn/dp/on_way_home.cpp.i
-.PHONY : approach_techn/dp/on_way_home.cpp.i
+codechef/theatre.cpp.i:
+	$(MAKE) -f CMakeFiles\theatre.dir\build.make CMakeFiles/theatre.dir/codechef/theatre.cpp.i
+.PHONY : codechef/theatre.cpp.i
 
-approach_techn/dp/on_way_home.s: approach_techn/dp/on_way_home.cpp.s
+codechef/theatre.s: codechef/theatre.cpp.s
 
-.PHONY : approach_techn/dp/on_way_home.s
+.PHONY : codechef/theatre.s
 
 # target to generate assembly for a file
-approach_techn/dp/on_way_home.cpp.s:
-	$(MAKE) -f CMakeFiles\on_way_home.dir\build.make CMakeFiles/on_way_home.dir/approach_techn/dp/on_way_home.cpp.s
-.PHONY : approach_techn/dp/on_way_home.cpp.s
+codechef/theatre.cpp.s:
+	$(MAKE) -f CMakeFiles\theatre.dir\build.make CMakeFiles/theatre.dir/codechef/theatre.cpp.s
+.PHONY : codechef/theatre.cpp.s
 
-approach_techn/dp/rod_cutting.obj: approach_techn/dp/rod_cutting.cpp.obj
+codeforces/disp_seg.obj: codeforces/disp_seg.cpp.obj
 
-.PHONY : approach_techn/dp/rod_cutting.obj
+.PHONY : codeforces/disp_seg.obj
 
 # target to build an object file
-approach_techn/dp/rod_cutting.cpp.obj:
-	$(MAKE) -f CMakeFiles\rod_cutting.dir\build.make CMakeFiles/rod_cutting.dir/approach_techn/dp/rod_cutting.cpp.obj
-.PHONY : approach_techn/dp/rod_cutting.cpp.obj
+codeforces/disp_seg.cpp.obj:
+	$(MAKE) -f CMakeFiles\disp_seg.dir\build.make CMakeFiles/disp_seg.dir/codeforces/disp_seg.cpp.obj
+.PHONY : codeforces/disp_seg.cpp.obj
 
-approach_techn/dp/rod_cutting.i: approach_techn/dp/rod_cutting.cpp.i
+codeforces/disp_seg.i: codeforces/disp_seg.cpp.i
 
-.PHONY : approach_techn/dp/rod_cutting.i
+.PHONY : codeforces/disp_seg.i
 
 # target to preprocess a source file
-approach_techn/dp/rod_cutting.cpp.i:
-	$(MAKE) -f CMakeFiles\rod_cutting.dir\build.make CMakeFiles/rod_cutting.dir/approach_techn/dp/rod_cutting.cpp.i
-.PHONY : approach_techn/dp/rod_cutting.cpp.i
+codeforces/disp_seg.cpp.i:
+	$(MAKE) -f CMakeFiles\disp_seg.dir\build.make CMakeFiles/disp_seg.dir/codeforces/disp_seg.cpp.i
+.PHONY : codeforces/disp_seg.cpp.i
 
-approach_techn/dp/rod_cutting.s: approach_techn/dp/rod_cutting.cpp.s
+codeforces/disp_seg.s: codeforces/disp_seg.cpp.s
 
-.PHONY : approach_techn/dp/rod_cutting.s
+.PHONY : codeforces/disp_seg.s
 
 # target to generate assembly for a file
-approach_techn/dp/rod_cutting.cpp.s:
-	$(MAKE) -f CMakeFiles\rod_cutting.dir\build.make CMakeFiles/rod_cutting.dir/approach_techn/dp/rod_cutting.cpp.s
-.PHONY : approach_techn/dp/rod_cutting.cpp.s
+codeforces/disp_seg.cpp.s:
+	$(MAKE) -f CMakeFiles\disp_seg.dir\build.make CMakeFiles/disp_seg.dir/codeforces/disp_seg.cpp.s
+.PHONY : codeforces/disp_seg.cpp.s
 
-approach_techn/dp/stair_heav.obj: approach_techn/dp/stair_heav.cpp.obj
+codeforces/ris.obj: codeforces/ris.cpp.obj
 
-.PHONY : approach_techn/dp/stair_heav.obj
+.PHONY : codeforces/ris.obj
 
 # target to build an object file
-approach_techn/dp/stair_heav.cpp.obj:
-	$(MAKE) -f CMakeFiles\stair_heav.dir\build.make CMakeFiles/stair_heav.dir/approach_techn/dp/stair_heav.cpp.obj
-.PHONY : approach_techn/dp/stair_heav.cpp.obj
+codeforces/ris.cpp.obj:
+	$(MAKE) -f CMakeFiles\ris.dir\build.make CMakeFiles/ris.dir/codeforces/ris.cpp.obj
+.PHONY : codeforces/ris.cpp.obj
 
-approach_techn/dp/stair_heav.i: approach_techn/dp/stair_heav.cpp.i
+codeforces/ris.i: codeforces/ris.cpp.i
 
-.PHONY : approach_techn/dp/stair_heav.i
+.PHONY : codeforces/ris.i
 
 # target to preprocess a source file
-approach_techn/dp/stair_heav.cpp.i:
-	$(MAKE) -f CMakeFiles\stair_heav.dir\build.make CMakeFiles/stair_heav.dir/approach_techn/dp/stair_heav.cpp.i
-.PHONY : approach_techn/dp/stair_heav.cpp.i
+codeforces/ris.cpp.i:
+	$(MAKE) -f CMakeFiles\ris.dir\build.make CMakeFiles/ris.dir/codeforces/ris.cpp.i
+.PHONY : codeforces/ris.cpp.i
 
-approach_techn/dp/stair_heav.s: approach_techn/dp/stair_heav.cpp.s
+codeforces/ris.s: codeforces/ris.cpp.s
 
-.PHONY : approach_techn/dp/stair_heav.s
+.PHONY : codeforces/ris.s
 
 # target to generate assembly for a file
-approach_techn/dp/stair_heav.cpp.s:
-	$(MAKE) -f CMakeFiles\stair_heav.dir\build.make CMakeFiles/stair_heav.dir/approach_techn/dp/stair_heav.cpp.s
-.PHONY : approach_techn/dp/stair_heav.cpp.s
+codeforces/ris.cpp.s:
+	$(MAKE) -f CMakeFiles\ris.dir\build.make CMakeFiles/ris.dir/codeforces/ris.cpp.s
+.PHONY : codeforces/ris.cpp.s
 
-approach_techn/subset_sum.obj: approach_techn/subset_sum.cpp.obj
+hackerrank/2darray_vect.obj: hackerrank/2darray_vect.cpp.obj
 
-.PHONY : approach_techn/subset_sum.obj
+.PHONY : hackerrank/2darray_vect.obj
 
 # target to build an object file
-approach_techn/subset_sum.cpp.obj:
-	$(MAKE) -f CMakeFiles\subset_sum.dir\build.make CMakeFiles/subset_sum.dir/approach_techn/subset_sum.cpp.obj
-.PHONY : approach_techn/subset_sum.cpp.obj
+hackerrank/2darray_vect.cpp.obj:
+	$(MAKE) -f CMakeFiles\2darray_vect.dir\build.make CMakeFiles/2darray_vect.dir/hackerrank/2darray_vect.cpp.obj
+.PHONY : hackerrank/2darray_vect.cpp.obj
 
-approach_techn/subset_sum.i: approach_techn/subset_sum.cpp.i
+hackerrank/2darray_vect.i: hackerrank/2darray_vect.cpp.i
 
-.PHONY : approach_techn/subset_sum.i
+.PHONY : hackerrank/2darray_vect.i
 
 # target to preprocess a source file
-approach_techn/subset_sum.cpp.i:
-	$(MAKE) -f CMakeFiles\subset_sum.dir\build.make CMakeFiles/subset_sum.dir/approach_techn/subset_sum.cpp.i
-.PHONY : approach_techn/subset_sum.cpp.i
+hackerrank/2darray_vect.cpp.i:
+	$(MAKE) -f CMakeFiles\2darray_vect.dir\build.make CMakeFiles/2darray_vect.dir/hackerrank/2darray_vect.cpp.i
+.PHONY : hackerrank/2darray_vect.cpp.i
 
-approach_techn/subset_sum.s: approach_techn/subset_sum.cpp.s
+hackerrank/2darray_vect.s: hackerrank/2darray_vect.cpp.s
 
-.PHONY : approach_techn/subset_sum.s
+.PHONY : hackerrank/2darray_vect.s
 
 # target to generate assembly for a file
-approach_techn/subset_sum.cpp.s:
-	$(MAKE) -f CMakeFiles\subset_sum.dir\build.make CMakeFiles/subset_sum.dir/approach_techn/subset_sum.cpp.s
-.PHONY : approach_techn/subset_sum.cpp.s
+hackerrank/2darray_vect.cpp.s:
+	$(MAKE) -f CMakeFiles\2darray_vect.dir\build.make CMakeFiles/2darray_vect.dir/hackerrank/2darray_vect.cpp.s
+.PHONY : hackerrank/2darray_vect.cpp.s
+
+hackerrank/migr_birds.obj: hackerrank/migr_birds.cpp.obj
+
+.PHONY : hackerrank/migr_birds.obj
+
+# target to build an object file
+hackerrank/migr_birds.cpp.obj:
+	$(MAKE) -f CMakeFiles\migr_birds.dir\build.make CMakeFiles/migr_birds.dir/hackerrank/migr_birds.cpp.obj
+.PHONY : hackerrank/migr_birds.cpp.obj
+
+hackerrank/migr_birds.i: hackerrank/migr_birds.cpp.i
+
+.PHONY : hackerrank/migr_birds.i
+
+# target to preprocess a source file
+hackerrank/migr_birds.cpp.i:
+	$(MAKE) -f CMakeFiles\migr_birds.dir\build.make CMakeFiles/migr_birds.dir/hackerrank/migr_birds.cpp.i
+.PHONY : hackerrank/migr_birds.cpp.i
+
+hackerrank/migr_birds.s: hackerrank/migr_birds.cpp.s
+
+.PHONY : hackerrank/migr_birds.s
+
+# target to generate assembly for a file
+hackerrank/migr_birds.cpp.s:
+	$(MAKE) -f CMakeFiles\migr_birds.dir\build.make CMakeFiles/migr_birds.dir/hackerrank/migr_birds.cpp.s
+.PHONY : hackerrank/migr_birds.cpp.s
+
+hackerrank/nat.obj: hackerrank/nat.cpp.obj
+
+.PHONY : hackerrank/nat.obj
+
+# target to build an object file
+hackerrank/nat.cpp.obj:
+	$(MAKE) -f CMakeFiles\nat.dir\build.make CMakeFiles/nat.dir/hackerrank/nat.cpp.obj
+.PHONY : hackerrank/nat.cpp.obj
+
+hackerrank/nat.i: hackerrank/nat.cpp.i
+
+.PHONY : hackerrank/nat.i
+
+# target to preprocess a source file
+hackerrank/nat.cpp.i:
+	$(MAKE) -f CMakeFiles\nat.dir\build.make CMakeFiles/nat.dir/hackerrank/nat.cpp.i
+.PHONY : hackerrank/nat.cpp.i
+
+hackerrank/nat.s: hackerrank/nat.cpp.s
+
+.PHONY : hackerrank/nat.s
+
+# target to generate assembly for a file
+hackerrank/nat.cpp.s:
+	$(MAKE) -f CMakeFiles\nat.dir\build.make CMakeFiles/nat.dir/hackerrank/nat.cpp.s
+.PHONY : hackerrank/nat.cpp.s
+
+hackerrank/twodvect.obj: hackerrank/twodvect.cpp.obj
+
+.PHONY : hackerrank/twodvect.obj
+
+# target to build an object file
+hackerrank/twodvect.cpp.obj:
+	$(MAKE) -f CMakeFiles\twodvect.dir\build.make CMakeFiles/twodvect.dir/hackerrank/twodvect.cpp.obj
+.PHONY : hackerrank/twodvect.cpp.obj
+
+hackerrank/twodvect.i: hackerrank/twodvect.cpp.i
+
+.PHONY : hackerrank/twodvect.i
+
+# target to preprocess a source file
+hackerrank/twodvect.cpp.i:
+	$(MAKE) -f CMakeFiles\twodvect.dir\build.make CMakeFiles/twodvect.dir/hackerrank/twodvect.cpp.i
+.PHONY : hackerrank/twodvect.cpp.i
+
+hackerrank/twodvect.s: hackerrank/twodvect.cpp.s
+
+.PHONY : hackerrank/twodvect.s
+
+# target to generate assembly for a file
+hackerrank/twodvect.cpp.s:
+	$(MAKE) -f CMakeFiles\twodvect.dir\build.make CMakeFiles/twodvect.dir/hackerrank/twodvect.cpp.s
+.PHONY : hackerrank/twodvect.cpp.s
+
+hackerrank/unordmap.obj: hackerrank/unordmap.cpp.obj
+
+.PHONY : hackerrank/unordmap.obj
+
+# target to build an object file
+hackerrank/unordmap.cpp.obj:
+	$(MAKE) -f CMakeFiles\unordmap.dir\build.make CMakeFiles/unordmap.dir/hackerrank/unordmap.cpp.obj
+.PHONY : hackerrank/unordmap.cpp.obj
+
+hackerrank/unordmap.i: hackerrank/unordmap.cpp.i
+
+.PHONY : hackerrank/unordmap.i
+
+# target to preprocess a source file
+hackerrank/unordmap.cpp.i:
+	$(MAKE) -f CMakeFiles\unordmap.dir\build.make CMakeFiles/unordmap.dir/hackerrank/unordmap.cpp.i
+.PHONY : hackerrank/unordmap.cpp.i
+
+hackerrank/unordmap.s: hackerrank/unordmap.cpp.s
+
+.PHONY : hackerrank/unordmap.s
+
+# target to generate assembly for a file
+hackerrank/unordmap.cpp.s:
+	$(MAKE) -f CMakeFiles\unordmap.dir\build.make CMakeFiles/unordmap.dir/hackerrank/unordmap.cpp.s
+.PHONY : hackerrank/unordmap.cpp.s
 
 main_hello_world.obj: main_hello_world.cpp.obj
 
@@ -388,86 +587,167 @@ main_hello_world.cpp.s:
 	$(MAKE) -f CMakeFiles\main_hello_world.dir\build.make CMakeFiles/main_hello_world.dir/main_hello_world.cpp.s
 .PHONY : main_hello_world.cpp.s
 
-prelude/mod_mult_inverse.obj: prelude/mod_mult_inverse.cpp.obj
+prelude/trees/ancestor.obj: prelude/trees/ancestor.cpp.obj
 
-.PHONY : prelude/mod_mult_inverse.obj
-
-# target to build an object file
-prelude/mod_mult_inverse.cpp.obj:
-	$(MAKE) -f CMakeFiles\mod_mult_inverse.dir\build.make CMakeFiles/mod_mult_inverse.dir/prelude/mod_mult_inverse.cpp.obj
-.PHONY : prelude/mod_mult_inverse.cpp.obj
-
-prelude/mod_mult_inverse.i: prelude/mod_mult_inverse.cpp.i
-
-.PHONY : prelude/mod_mult_inverse.i
-
-# target to preprocess a source file
-prelude/mod_mult_inverse.cpp.i:
-	$(MAKE) -f CMakeFiles\mod_mult_inverse.dir\build.make CMakeFiles/mod_mult_inverse.dir/prelude/mod_mult_inverse.cpp.i
-.PHONY : prelude/mod_mult_inverse.cpp.i
-
-prelude/mod_mult_inverse.s: prelude/mod_mult_inverse.cpp.s
-
-.PHONY : prelude/mod_mult_inverse.s
-
-# target to generate assembly for a file
-prelude/mod_mult_inverse.cpp.s:
-	$(MAKE) -f CMakeFiles\mod_mult_inverse.dir\build.make CMakeFiles/mod_mult_inverse.dir/prelude/mod_mult_inverse.cpp.s
-.PHONY : prelude/mod_mult_inverse.cpp.s
-
-prelude/stack/nextgrtr_unorder_stack.obj: prelude/stack/nextgrtr_unorder_stack.cpp.obj
-
-.PHONY : prelude/stack/nextgrtr_unorder_stack.obj
+.PHONY : prelude/trees/ancestor.obj
 
 # target to build an object file
-prelude/stack/nextgrtr_unorder_stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\nextgrtr_unorder_stack.dir\build.make CMakeFiles/nextgrtr_unorder_stack.dir/prelude/stack/nextgrtr_unorder_stack.cpp.obj
-.PHONY : prelude/stack/nextgrtr_unorder_stack.cpp.obj
+prelude/trees/ancestor.cpp.obj:
+	$(MAKE) -f CMakeFiles\ancestor.dir\build.make CMakeFiles/ancestor.dir/prelude/trees/ancestor.cpp.obj
+.PHONY : prelude/trees/ancestor.cpp.obj
 
-prelude/stack/nextgrtr_unorder_stack.i: prelude/stack/nextgrtr_unorder_stack.cpp.i
+prelude/trees/ancestor.i: prelude/trees/ancestor.cpp.i
 
-.PHONY : prelude/stack/nextgrtr_unorder_stack.i
+.PHONY : prelude/trees/ancestor.i
 
 # target to preprocess a source file
-prelude/stack/nextgrtr_unorder_stack.cpp.i:
-	$(MAKE) -f CMakeFiles\nextgrtr_unorder_stack.dir\build.make CMakeFiles/nextgrtr_unorder_stack.dir/prelude/stack/nextgrtr_unorder_stack.cpp.i
-.PHONY : prelude/stack/nextgrtr_unorder_stack.cpp.i
+prelude/trees/ancestor.cpp.i:
+	$(MAKE) -f CMakeFiles\ancestor.dir\build.make CMakeFiles/ancestor.dir/prelude/trees/ancestor.cpp.i
+.PHONY : prelude/trees/ancestor.cpp.i
 
-prelude/stack/nextgrtr_unorder_stack.s: prelude/stack/nextgrtr_unorder_stack.cpp.s
+prelude/trees/ancestor.s: prelude/trees/ancestor.cpp.s
 
-.PHONY : prelude/stack/nextgrtr_unorder_stack.s
+.PHONY : prelude/trees/ancestor.s
 
 # target to generate assembly for a file
-prelude/stack/nextgrtr_unorder_stack.cpp.s:
-	$(MAKE) -f CMakeFiles\nextgrtr_unorder_stack.dir\build.make CMakeFiles/nextgrtr_unorder_stack.dir/prelude/stack/nextgrtr_unorder_stack.cpp.s
-.PHONY : prelude/stack/nextgrtr_unorder_stack.cpp.s
+prelude/trees/ancestor.cpp.s:
+	$(MAKE) -f CMakeFiles\ancestor.dir\build.make CMakeFiles/ancestor.dir/prelude/trees/ancestor.cpp.s
+.PHONY : prelude/trees/ancestor.cpp.s
 
-prelude/stack/sort_stack.obj: prelude/stack/sort_stack.cpp.obj
+prelude/trees/heap.obj: prelude/trees/heap.cpp.obj
 
-.PHONY : prelude/stack/sort_stack.obj
+.PHONY : prelude/trees/heap.obj
 
 # target to build an object file
-prelude/stack/sort_stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\sort_stack.dir\build.make CMakeFiles/sort_stack.dir/prelude/stack/sort_stack.cpp.obj
-.PHONY : prelude/stack/sort_stack.cpp.obj
+prelude/trees/heap.cpp.obj:
+	$(MAKE) -f CMakeFiles\heap.dir\build.make CMakeFiles/heap.dir/prelude/trees/heap.cpp.obj
+.PHONY : prelude/trees/heap.cpp.obj
 
-prelude/stack/sort_stack.i: prelude/stack/sort_stack.cpp.i
+prelude/trees/heap.i: prelude/trees/heap.cpp.i
 
-.PHONY : prelude/stack/sort_stack.i
+.PHONY : prelude/trees/heap.i
 
 # target to preprocess a source file
-prelude/stack/sort_stack.cpp.i:
-	$(MAKE) -f CMakeFiles\sort_stack.dir\build.make CMakeFiles/sort_stack.dir/prelude/stack/sort_stack.cpp.i
-.PHONY : prelude/stack/sort_stack.cpp.i
+prelude/trees/heap.cpp.i:
+	$(MAKE) -f CMakeFiles\heap.dir\build.make CMakeFiles/heap.dir/prelude/trees/heap.cpp.i
+.PHONY : prelude/trees/heap.cpp.i
 
-prelude/stack/sort_stack.s: prelude/stack/sort_stack.cpp.s
+prelude/trees/heap.s: prelude/trees/heap.cpp.s
 
-.PHONY : prelude/stack/sort_stack.s
+.PHONY : prelude/trees/heap.s
 
 # target to generate assembly for a file
-prelude/stack/sort_stack.cpp.s:
-	$(MAKE) -f CMakeFiles\sort_stack.dir\build.make CMakeFiles/sort_stack.dir/prelude/stack/sort_stack.cpp.s
-.PHONY : prelude/stack/sort_stack.cpp.s
+prelude/trees/heap.cpp.s:
+	$(MAKE) -f CMakeFiles\heap.dir\build.make CMakeFiles/heap.dir/prelude/trees/heap.cpp.s
+.PHONY : prelude/trees/heap.cpp.s
+
+prelude/trees/heapsort.obj: prelude/trees/heapsort.cpp.obj
+
+.PHONY : prelude/trees/heapsort.obj
+
+# target to build an object file
+prelude/trees/heapsort.cpp.obj:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/prelude/trees/heapsort.cpp.obj
+.PHONY : prelude/trees/heapsort.cpp.obj
+
+prelude/trees/heapsort.i: prelude/trees/heapsort.cpp.i
+
+.PHONY : prelude/trees/heapsort.i
+
+# target to preprocess a source file
+prelude/trees/heapsort.cpp.i:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/prelude/trees/heapsort.cpp.i
+.PHONY : prelude/trees/heapsort.cpp.i
+
+prelude/trees/heapsort.s: prelude/trees/heapsort.cpp.s
+
+.PHONY : prelude/trees/heapsort.s
+
+# target to generate assembly for a file
+prelude/trees/heapsort.cpp.s:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/prelude/trees/heapsort.cpp.s
+.PHONY : prelude/trees/heapsort.cpp.s
+
+prelude/trees/inord_stack.obj: prelude/trees/inord_stack.cpp.obj
+
+.PHONY : prelude/trees/inord_stack.obj
+
+# target to build an object file
+prelude/trees/inord_stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\inord_stack.dir\build.make CMakeFiles/inord_stack.dir/prelude/trees/inord_stack.cpp.obj
+.PHONY : prelude/trees/inord_stack.cpp.obj
+
+prelude/trees/inord_stack.i: prelude/trees/inord_stack.cpp.i
+
+.PHONY : prelude/trees/inord_stack.i
+
+# target to preprocess a source file
+prelude/trees/inord_stack.cpp.i:
+	$(MAKE) -f CMakeFiles\inord_stack.dir\build.make CMakeFiles/inord_stack.dir/prelude/trees/inord_stack.cpp.i
+.PHONY : prelude/trees/inord_stack.cpp.i
+
+prelude/trees/inord_stack.s: prelude/trees/inord_stack.cpp.s
+
+.PHONY : prelude/trees/inord_stack.s
+
+# target to generate assembly for a file
+prelude/trees/inord_stack.cpp.s:
+	$(MAKE) -f CMakeFiles\inord_stack.dir\build.make CMakeFiles/inord_stack.dir/prelude/trees/inord_stack.cpp.s
+.PHONY : prelude/trees/inord_stack.cpp.s
+
+prelude/trees/levl_ord_trav_tree.obj: prelude/trees/levl_ord_trav_tree.cpp.obj
+
+.PHONY : prelude/trees/levl_ord_trav_tree.obj
+
+# target to build an object file
+prelude/trees/levl_ord_trav_tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\levl_ord_trav_tree.dir\build.make CMakeFiles/levl_ord_trav_tree.dir/prelude/trees/levl_ord_trav_tree.cpp.obj
+.PHONY : prelude/trees/levl_ord_trav_tree.cpp.obj
+
+prelude/trees/levl_ord_trav_tree.i: prelude/trees/levl_ord_trav_tree.cpp.i
+
+.PHONY : prelude/trees/levl_ord_trav_tree.i
+
+# target to preprocess a source file
+prelude/trees/levl_ord_trav_tree.cpp.i:
+	$(MAKE) -f CMakeFiles\levl_ord_trav_tree.dir\build.make CMakeFiles/levl_ord_trav_tree.dir/prelude/trees/levl_ord_trav_tree.cpp.i
+.PHONY : prelude/trees/levl_ord_trav_tree.cpp.i
+
+prelude/trees/levl_ord_trav_tree.s: prelude/trees/levl_ord_trav_tree.cpp.s
+
+.PHONY : prelude/trees/levl_ord_trav_tree.s
+
+# target to generate assembly for a file
+prelude/trees/levl_ord_trav_tree.cpp.s:
+	$(MAKE) -f CMakeFiles\levl_ord_trav_tree.dir\build.make CMakeFiles/levl_ord_trav_tree.dir/prelude/trees/levl_ord_trav_tree.cpp.s
+.PHONY : prelude/trees/levl_ord_trav_tree.cpp.s
+
+prelude/trees/monk.obj: prelude/trees/monk.cpp.obj
+
+.PHONY : prelude/trees/monk.obj
+
+# target to build an object file
+prelude/trees/monk.cpp.obj:
+	$(MAKE) -f CMakeFiles\monk.dir\build.make CMakeFiles/monk.dir/prelude/trees/monk.cpp.obj
+.PHONY : prelude/trees/monk.cpp.obj
+
+prelude/trees/monk.i: prelude/trees/monk.cpp.i
+
+.PHONY : prelude/trees/monk.i
+
+# target to preprocess a source file
+prelude/trees/monk.cpp.i:
+	$(MAKE) -f CMakeFiles\monk.dir\build.make CMakeFiles/monk.dir/prelude/trees/monk.cpp.i
+.PHONY : prelude/trees/monk.cpp.i
+
+prelude/trees/monk.s: prelude/trees/monk.cpp.s
+
+.PHONY : prelude/trees/monk.s
+
+# target to generate assembly for a file
+prelude/trees/monk.cpp.s:
+	$(MAKE) -f CMakeFiles\monk.dir\build.make CMakeFiles/monk.dir/prelude/trees/monk.cpp.s
+.PHONY : prelude/trees/monk.cpp.s
 
 # Help Target
 help:
@@ -475,44 +755,72 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... goldmine
 	@echo ... main_hello_world
-	@echo ... nextgrtr_unorder_stack
-	@echo ... on_way_home
-	@echo ... sort_stack
-	@echo ... stair_heav
-	@echo ... subset_sum
-	@echo ... rod_cutting
-	@echo ... mod_mult_inverse
+	@echo ... heapsort
+	@echo ... heap
+	@echo ... ris
+	@echo ... levl_ord_trav_tree
+	@echo ... twodvect
+	@echo ... migr_birds
+	@echo ... unordmap
+	@echo ... disp_seg
+	@echo ... 2darray_vect
+	@echo ... inord_stack
+	@echo ... monk
+	@echo ... theatre
+	@echo ... nat
+	@echo ... ancestor
+	@echo ... first
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... approach_techn/dp/goldmine.obj
-	@echo ... approach_techn/dp/goldmine.i
-	@echo ... approach_techn/dp/goldmine.s
-	@echo ... approach_techn/dp/on_way_home.obj
-	@echo ... approach_techn/dp/on_way_home.i
-	@echo ... approach_techn/dp/on_way_home.s
-	@echo ... approach_techn/dp/rod_cutting.obj
-	@echo ... approach_techn/dp/rod_cutting.i
-	@echo ... approach_techn/dp/rod_cutting.s
-	@echo ... approach_techn/dp/stair_heav.obj
-	@echo ... approach_techn/dp/stair_heav.i
-	@echo ... approach_techn/dp/stair_heav.s
-	@echo ... approach_techn/subset_sum.obj
-	@echo ... approach_techn/subset_sum.i
-	@echo ... approach_techn/subset_sum.s
+	@echo ... codechef/first.obj
+	@echo ... codechef/first.i
+	@echo ... codechef/first.s
+	@echo ... codechef/theatre.obj
+	@echo ... codechef/theatre.i
+	@echo ... codechef/theatre.s
+	@echo ... codeforces/disp_seg.obj
+	@echo ... codeforces/disp_seg.i
+	@echo ... codeforces/disp_seg.s
+	@echo ... codeforces/ris.obj
+	@echo ... codeforces/ris.i
+	@echo ... codeforces/ris.s
+	@echo ... hackerrank/2darray_vect.obj
+	@echo ... hackerrank/2darray_vect.i
+	@echo ... hackerrank/2darray_vect.s
+	@echo ... hackerrank/migr_birds.obj
+	@echo ... hackerrank/migr_birds.i
+	@echo ... hackerrank/migr_birds.s
+	@echo ... hackerrank/nat.obj
+	@echo ... hackerrank/nat.i
+	@echo ... hackerrank/nat.s
+	@echo ... hackerrank/twodvect.obj
+	@echo ... hackerrank/twodvect.i
+	@echo ... hackerrank/twodvect.s
+	@echo ... hackerrank/unordmap.obj
+	@echo ... hackerrank/unordmap.i
+	@echo ... hackerrank/unordmap.s
 	@echo ... main_hello_world.obj
 	@echo ... main_hello_world.i
 	@echo ... main_hello_world.s
-	@echo ... prelude/mod_mult_inverse.obj
-	@echo ... prelude/mod_mult_inverse.i
-	@echo ... prelude/mod_mult_inverse.s
-	@echo ... prelude/stack/nextgrtr_unorder_stack.obj
-	@echo ... prelude/stack/nextgrtr_unorder_stack.i
-	@echo ... prelude/stack/nextgrtr_unorder_stack.s
-	@echo ... prelude/stack/sort_stack.obj
-	@echo ... prelude/stack/sort_stack.i
-	@echo ... prelude/stack/sort_stack.s
+	@echo ... prelude/trees/ancestor.obj
+	@echo ... prelude/trees/ancestor.i
+	@echo ... prelude/trees/ancestor.s
+	@echo ... prelude/trees/heap.obj
+	@echo ... prelude/trees/heap.i
+	@echo ... prelude/trees/heap.s
+	@echo ... prelude/trees/heapsort.obj
+	@echo ... prelude/trees/heapsort.i
+	@echo ... prelude/trees/heapsort.s
+	@echo ... prelude/trees/inord_stack.obj
+	@echo ... prelude/trees/inord_stack.i
+	@echo ... prelude/trees/inord_stack.s
+	@echo ... prelude/trees/levl_ord_trav_tree.obj
+	@echo ... prelude/trees/levl_ord_trav_tree.i
+	@echo ... prelude/trees/levl_ord_trav_tree.s
+	@echo ... prelude/trees/monk.obj
+	@echo ... prelude/trees/monk.i
+	@echo ... prelude/trees/monk.s
 .PHONY : help
 
 

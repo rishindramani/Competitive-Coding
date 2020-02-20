@@ -9,6 +9,7 @@ int t,max1;
 cin>>t;
 while(t--)
 {
+
 int n;
 cin>>n;
 int a[n];

@@ -1,7 +1,7 @@
 //
 // Created by Rishi on 14-Oct-19.
 //
-
+/*
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -30,10 +30,10 @@ int main(){
 
     return 0;
 }
+*/
 
-/*
- OPTIMISED
-  #include <bits/stdc++.h>
+// OPTIMISED
+#include <bits/stdc++.h>
 using namespace std;
 long long int m=pow(10,9)+7;
 int main()
@@ -57,4 +57,3 @@ int main()
    }
     return 0;
 }
- */
